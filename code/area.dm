@@ -11,7 +11,15 @@ area/forest
 		usr.invisibility = 0
 		return 1
 
-
+area/safezone
+	Enter()
+		usr.mayattack=0
+		return 1
+	Exit()
+		usr.mayattack=1
+		return 1
+//Уже не актуально, другая система перехода в город\на карту. Оставлю если потребуется.
+/*
 area/cityexit
 	density=0
 	Enter()
@@ -20,3 +28,9 @@ area/cityexit
 	Exit()
 		src.verbs -= /mob/proc/leave_city
 		return ..()
+
+
+mob/proc/leave_city()
+	usr.Move(locate(/turf/build/town))
+
+*/

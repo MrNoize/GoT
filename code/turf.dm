@@ -40,19 +40,19 @@ turf
 	icon_state="wall"
 	density=1
 	opacity=1
-/turf/build/townhall
-	icon_state="townhall"
-	verb
-		EnterToCity()
-			set src in view(1)
-			usr.Move(locate(2,6,1))
+/turf/build/town
+	var/Cityname
+	icon='turfs64.dmi'
+	icon_state="town"
+	DblClick(o,var/c)
+		c = input("Вы действительно хотите перейти в город [Cityname]","Переход",c) in list("Да","Нет")
+		if (c == "Да") usr.Move(locate(2,6,1))
 
 
 
 //City
 turf/city
 	icon='city_turfs.dmi'
-
 
 	city_wall
 		density = 1
@@ -69,3 +69,9 @@ turf/city
 		icon_state="road"
 	city_floor
 		icon_state="floor"
+	city_gate
+		icon='turfs64.dmi'
+		icon_state="wall_gate"
+		DblClick(o,var/c)
+			c = input("Вы действительно хотите покинуть город город","Переход",c) in list("Да","Нет")
+			if (c == "Да") usr.Move(locate(/turf/build/town))

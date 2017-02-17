@@ -13,18 +13,15 @@
 "m" = (/turf/build/wall{dir = 9},/area)
 "n" = (/turf/build/wall{dir = 1},/area)
 "o" = (/turf/build/wall{dir = 5},/area)
-"p" = (/turf/Grass,/area/safezone)
-"q" = (/turf/build/wall{dir = 8},/area)
-"r" = (/turf/cobblestone,/area/safezone)
-"s" = (/mob/Player{cavalry = 10; infantry = 100},/turf/cobblestone,/area/safezone)
-"t" = (/turf/build/wall{dir = 4},/area)
-"u" = (/mob/Player,/turf/Grass,/area)
-"v" = (/turf/build/town{Cityname = "Tashkent"},/area/safezone)
-"w" = (/mob/Player{cavalry = 500; infantry = 400},/turf/Grass,/area)
-"x" = (/turf/build/wall{dir = 8},/area{dir = 8})
-"y" = (/turf/build/wall{dir = 10},/area)
-"z" = (/turf/build/wall,/area)
-"A" = (/turf/build/wall{dir = 6},/area)
+"p" = (/turf/build/wall{dir = 8},/area)
+"q" = (/turf/build/wall{dir = 4},/area)
+"r" = (/mob/Player,/turf/Grass,/area)
+"s" = (/turf/build/townhall,/area)
+"t" = (/mob/Player{cavalry = 500; infantry = 400},/turf/Grass,/area)
+"u" = (/turf/build/wall{dir = 8},/area{dir = 8})
+"v" = (/turf/build/wall{dir = 10},/area)
+"w" = (/turf/build/wall,/area)
+"x" = (/turf/build/wall{dir = 6},/area)
 
 (1,1,1) = {"
 aaaaaaaaaaaaaaaaaaaaabbbaaaaaaaaaaaaaaaaaaaaaaacccccdddddddddddddddddddddddddddddddddddddddddddddddd
@@ -121,10 +118,10 @@ dddkkkaakkkkkkkkkkkkkkkkkkkkccccddddcccaaaaabbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 dddkkaaaakkkkkakkkkkkkkkkkaaaccccdddcccaaaaabbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 kkkkaaaaaaakkaaakkkccckkkaaaaacccdddcccaaaaaabbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 kkaaaaaaaaakkaakkkkkkkkaaaaaaacccdccccaaaaaaajbjjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-kaamnnnnnnopaaakkkkakkaaaaaaaaacccccccaaaaaaajbjjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaqrrrrrstpaaiaakauaaahaaaaaaaacccccaaaaaaabbbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaqrvrrrrrpaaaaiaaahaaaaaaaawaaacccaaaaaaabbbbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaqrrrrrrrpaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaxrrrrrrtpaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaayzzzzzzApaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+kaamnnnnnnoaaaakkkkakkaaaaaaaaacccccccaaaaaaajbjjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaapffffffqaaaiaakaraaahaaaaaaaacccccaaaaaaabbbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaapfsfffffaaaaaiaaahaaaaaaaataaacccaaaaaaabbbbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaapfffffffaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaauffffffqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaavwwwwwwxaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 "}

@@ -4,7 +4,9 @@
 "d" = (/turf/city/city_floor,/area)
 "e" = (/turf/city/city_house_window,/area)
 "f" = (/turf/city/city_road,/area)
-"g" = (/turf/city/city_gate,/area)
+"g" = (/turf/city/city_wall,/area/cityexit)
+"h" = (/turf/city/city_road,/area/cityexit)
+"i" = (/turf/city/city_gate,/area)
 
 (1,1,1) = {"
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -70,9 +72,9 @@ baaccececcafffaccecececcaccececdcecbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 bbbbaaaaaaaffaaaaaaaaaaaaaaaaafffaabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 bbbaaaaaaaaffaaaaaaaaaaaaaaaaafffbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 bbbaaaaaaaaffaaaaaaaaaaaaaaaaafffbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-bbbbaaaaaaaffaaaaaaaaaaaaaaaaafffabbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-bffffffffffffffffffffffffffffffffaabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-gffffffffffffffffffffffffffffffffabbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+bgggaaaaaaaffaaaaaaaaaaaaaaaaafffabbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+bhhhfffffffffffffffffffffffffffffaabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+ihhhfffffffffffffffffffffffffffffabbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 bbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 bbbbaaaaaaaaaabbbbaaaaabbbbbaaaaabbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 bbbbbabababababbbbabababbbbbabababbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
