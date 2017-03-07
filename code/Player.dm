@@ -19,6 +19,7 @@ mob
 	var/mayattack = 1
 
 
+
 mob/verb
 
 	Say(t as text)

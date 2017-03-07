@@ -1,11 +1,11 @@
 // BEGIN_INTERNALS
 /*
-LAST_COMPILE_TIME: 1487372602
-DIR: code icons maps 
+LAST_COMPILE_TIME: 1488930179
+DIR: code code\module icons icons\area maps 
 AUTO_FILE_DIR: ON
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 511.1366
-WINDOW: code\Player.dm;code\GoT.dm;code\turf.dm;maps\test.dmm;icons\turfs64.dmi;icons\city_turfs.dmi;GoT.dme;code\area.dm;icons\turfs.dmi;maps\City.dmm
+WINDOW: code\obj.dm;code\turf.dm;icons\flora.dmi;icons\Player.dmi;icons\turfs.dmi;icons\CM.dmi;icons\city_turfs.dmi;icons\city.dmi;icons\builds.dmi;code\Player.dm
 FILE: code\Player.dm
 */
 // END_INTERNALS

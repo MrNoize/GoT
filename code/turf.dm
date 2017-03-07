@@ -5,23 +5,15 @@ turf
 	icon='icons/turfs.dmi'
 	Grass
 		icon_state="grass"
-
-	tree
-		icon_state="tree0"
 		New()
 			..()
-			var/I = rand(0,4)
-			src.icon_state="tree[I]"
+			var/chance = rand(1,100)                                   //Костыльный способ добавить кусты
+			if ( chance < 30 )
+				var/obj/bush/F = new(src)
+				F.desc = "Скучнейшее растение"
+			else return
 
 
-	forest
-		density=1
-		opacity=1
-		icon_state="forest0"
-		New()
-			..()
-			var/I = rand(0,3)
-			src.icon_state="forest[I]"
 	cobblestone
 		icon_state="cobblestone"
 

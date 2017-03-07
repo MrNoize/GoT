@@ -1,4 +1,11 @@
+area
+	icon = 'icons/area/main.dmi'
+	layer = MOB_LAYER+1
+	icon_state = "none"
+	invisibility = 99
+
 area/forest
+	icon_state = "forest"
 	Enter()
 		usr << " Shadow has swallow you.."
 		usr.see_invisible = 20
@@ -12,12 +19,15 @@ area/forest
 		return 1
 
 area/safezone
+	icon_state = "safezone"
 	Enter()
 		usr.mayattack=0
 		return 1
 	Exit()
 		usr.mayattack=1
 		return 1
+
+
 //Уже не актуально, другая система перехода в город\на карту. Оставлю если потребуется.
 /*
 area/cityexit

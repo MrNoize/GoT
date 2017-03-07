@@ -8,6 +8,7 @@
 // BEGIN_FILE_DIR
 #define FILE_DIR .
 #define FILE_DIR "icons"
+#define FILE_DIR "icons/area"
 // END_FILE_DIR
 
 // BEGIN_PREFERENCES
@@ -23,6 +24,8 @@
 #include "code\Player.dm"
 #include "code\stats.dm"
 #include "code\turf.dm"
+#include "code\module\city.dm"
 #include "maps\City.dmm"
+#include "maps\fight.dmm"
 #include "maps\test.dmm"
 // END_INCLUDE

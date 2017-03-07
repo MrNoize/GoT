@@ -1,5 +1,7 @@
-obj/soldiers
+obj
 	icon='icons/obj.dmi'
+
+obj/soldiers
 	var/quantity
 	free_cavalry
 		icon_state="free_cavalry"
@@ -23,5 +25,33 @@ obj/soldiers/free_infantry/verb/Hire()
 
 obj/soldiers/New()
 	..()
-	quantity= pick(100,200,400,500)
+	quantity= pick(10,20,40,50)
 
+obj/tree
+	icon_state="tree0"
+	New()
+		..()
+		var/I = rand(0,4)
+		src.icon_state="tree[I]"
+		var/area/forest/F = new(src.loc)
+		F.desc = "Делает невидимым"
+
+
+obj/forest
+	density=1
+	opacity=1
+	icon_state="forest0"
+	New()
+		..()
+		var/I = rand(0,3)
+		src.icon_state="forest[I]"
+		var/area/forest/F = new(src.loc)
+		F.desc = "Делает невидимым"
+
+obj/bush
+	icon = 'icons/flora.dmi'
+	icon_state = "bush_1"
+	New()
+		..()
+		var/I=rand(1,56)
+		src.icon_state = "bush_[I]"
